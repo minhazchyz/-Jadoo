@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="Jadoo">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  bg-light">
+        <div class="container-fluid justify-content-center align-items-center">
+            <!-- Logo on the left -->
+            <a class="navbar-brand " href="#"><img src="Logo.png" alt="" /></a>
+
+            <!-- Toggler for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu items -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hotel</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Flight</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bookings</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Login</a>
+
+                    </li>
+                    <button class="btn btn-signup ">Sign up</button>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            EN
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">Bangla</a></li>
+                            <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h5>BEST DESTINATIONS AROUND THE WORLD</h5>
+            <h1>
+                Travel, <span class="underline-text">enjoy</span><br />
+                and live a new<br />
+                and full life
+            </h1>
+            <p>Built Wicket longer admire do barton vanity itself do in it.,<br /> Preferred to sportsmen it engrossed
+                listening. Park gate ,<br />sell they west hard for the.</p>
+            <button class="btn-cta">Find out more</button>
+            <button class="btn-play">
+                <i class="bi bi-play-fill"></i>
+                Play Demo
+            </button>
+
+        </div>
+        <div class="hero-img">
+            <img src="Traveller 1.png" alt="Girl with luggage">
+        </div>
+        <div class="background-curve"></div>
+    </section>
+
+
+
+    <!--catagori-->
+    <!-- Services Section -->
+    <section class="services-section py-5 ">
+        <div class="container text-center">
+            <p class="section-label">CATEGORY</p>
+            <h2 class="section-title mb-5">We Offer Best Services</h2>
+
+            <div class="row justify-content-center">
+                <!-- Calculated Weather -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="service-box">
+                        <img src="dish.png" alt="Calculated Weather" class="mb-3" />
+                        <h5>Calculated Weather</h5>
+                        <p>Built Wicket longer<br>admire do barton <br>vanity itself do in it.</p>
+                    </div>
+                </div>
+
+                <!-- Best Flights (Highlighted Card) -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="service-box ">
+                        <img src="biman.png" alt="Best Flights" class="mb-3" />
+                        <h5>Best Flights</h5>
+                        <p>Engrossed listening.<br> Park gate sell they<br> west hard for the.</p>
+                    </div>
+                </div>
+
+                <!-- Local Events -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="service-box">
+                        <img src="Group 50@2x.png" alt="Local Events" class="mb-3" />
+                        <h5>Local Events</h5>
+                        <p>Barton vanity itself do <br> it. Prefer to men it<br> engrossed listening.</p>
+                    </div>
+                </div>
+
+                <!-- Customization -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="service-box">
+                        <img src="setting.png" alt="Customization" class="mb-3" />
+                        <h5>Customization</h5>
+                        <p>We deliver outsourced<br> aviation services for <br>military customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Top Destinations Section -->
+    <section class="top-destinations-section">
+        <div class="section-header">
+            <p class="section-label">Top Selling</p>
+            <h2 class="section-title">Top Destinations</h2>
+        </div>
+
+        <div class="destination-grid">
+            <!-- Card 1 -->
+            <div class="destination-card">
+                <img src="istockphoto-539115110-612x612.jpg" alt="Rome, Italy" class="destination-img" />
+                <div class="destination-info">
+                    <div class="destination-header">
+                        <h5>Rome, Italy</h5>
+                        <span class="price">$5.42k</span>
+                    </div>
+                    <p><i class="fas fa-location-arrow"></i> 10 Days Trip</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="destination-card">
+                <img src="topic-london-gettyimages-760251843-feature.avif" alt="London, UK" class="destination-img" />
+                <div class="destination-info">
+                    <div class="destination-header">
+                        <h5>London, UK</h5>
+                        <span class="price">$4.2k</span>
+                    </div>
+                    <p><i class="fas fa-location-arrow"></i> 12 Days Trip</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+
+
+
+            <div class="destination-card">
+                <img src="finland-cityscape_square.jpg" alt="Full Europe" class="destination-img" />
+                <div class="destination-info">
+                    <div class="destination-header">
+                        <h5>Full Europe</h5>
+                        <span class="price">$15k</span>
+                    </div>
+                    <p><i class="fas fa-location-arrow"></i> 28 Days Trip</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--next trip-->
+    <section class="book-trip-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-secondary fw-bold mb-2">Easy and Fast</p>
+                    <h2 class="book-trip-title mb-4">Book Your Next Trip<br>In 3 Easy Steps</h2>
+
+                    <div class="steps-container">
+                        <!-- Step 1 -->
+                        <div class="booking-step d-flex mb-4">
+                            <div class="booking-step-icon-container me-4 step-1">
+                                <img src="Group.png" alt="grp">
+                            </div>
+                            <div class="booking-step-content">
+                                <h5 class="booking-step-title mb-2">Choose Destination</h5>
+                                <p class="booking-step-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Urna, tortor tempus.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="booking-step d-flex mb-4">
+                            <div class="booking-step-icon-container me-4 step-2">
+                                <img src="water-sport 1.png" alt="water">
+                            </div>
+                            <div class="booking-step-content">
+                                <h5 class="booking-step-title mb-2">Make Payment</h5>
+                                <p class="booking-step-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Urna, tortor tempus.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="booking-step d-flex">
+                            <div class="booking-step-icon-container me-4 step-3">
+                                <img src="taxi 1.png" alt="taxi">
+                            </div>
+                            <div class="booking-step-content">
+                                <h5 class="booking-step-title mb-2">Reach Airport on Selected Date</h5>
+                                <p class="booking-step-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Urna, tortor tempus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="trip-card-container position-relative">
+
+                        <div class="trip-card  main-trip-card">
+                            <div class="trip-card-image-container mb-3">
+                                <img src="girl.png" alt="Trip to Greece" class="img-fluid rounded-4">
+                            </div>
+                            <h5 class="trip-card-title mb-2">Trip To Greece</h5>
+                            <p class="trip-card-date mb-2">14-29 June | by Robbin Joseph</p>
+
+                            <div class="trip-card-icons d-flex mb-3">
+                                <div class="trip-icon-container me-4">
+
+                                    <img src="LEAF.png" alt="LEAF">
+                                </div>
+                                <div class="trip-icon-container me-4">
+                                    <img src="map icon.png" alt="map">
+                                </div>
+                                <div class="trip-icon-container">
+                                    <img src="send.png" alt="location">
+                                </div>
+                            </div>
+
+                            <div class="trip-card-footer d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="building 1.png" alt="people">
+                                    <span>24 people going</span>
+                                </div>
+                                <div>
+                                    <img src="heart (6) 1.png" alt="heart">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="trip-card small-trip-card mb-3">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="small-trip-image me-3">
+                                    <img src="tample.png" alt="Profile" class="img-fluid rounded-circle">
+                                </div>
+                                <div>
+                                    <p class="small-card-label mb-0">Ongoing</p>
+                                    <h6 class="small-card-title mb-0 fs-5">Trip to Rome</h6>
+                                </div>
+                            </div>
+                            <div class="progress-container">
+                                <p class="completion-text mb-1">40% completed</p>
+                                <div class="progress" style="height: 4px;">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;"
+                                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-uppercase fw-bold text-secondary mb-2">TESTIMONIALS</p>
+                    <h2 class="testimonials-title mb-5">What People Say<br>About Us.</h2>
+
+                    <div class="testimonial-indicators d-flex mt-5">
+                        <div class="testimonial-indicator-active  me-2"></div>
+                        <div class="testimonial-indicator me-2"></div>
+                        <div class="testimonial-indicator"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div class="testimonials-container position-relative">
+
+                        <div class="testimonial-card active-testimonial">
+                            <div class="testimonial-image-container mb-4">
+                                <img src="Image.png" alt="Mike Taylor" class="testimonial-image">
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-text mb-4">"On the Windows talking painted pasture yet its express
+                                    parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
+                                <h5 class="testimonial-name mb-0">Mike taylor</h5>
+                                <p class="testimonial-location">Lahore, Pakistan</p>
+                            </div>
+                        </div>
+
+
+                        <div class="testimonial-card inactive-testimonial">
+
+                            <div class="testimonial-content">
+                                <h5 class="testimonial-name mb-0">Chris Thomas</h5>
+                                <p class="testimonial-location">CEO of Red Button</p>
+                            </div>
+                        </div>
+
+
+                        <div class="testimonial-navigation ">
+                            <button class="testimonial-nav-btn prev-btn ">
+                                <img src="Vector 2.png" alt="Previous" srcset="">
+                            </button>
+                            <button class="testimonial-nav-btn next-btn">
+                                <img src="Vector 3.png" alt="Next" srcset="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Partners Section -->
+    <section class="partners-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="partners-container d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="partner-logo me-2">
+                            <div class="placeholder-logo d-flex align-items-center justify-content-center">
+                                <img src="image 27.png" class="img-fluid rounded-top" alt="" />
+
+                            </div>
+                        </div>
+                        <div class="partner-logo me-2">
+                            <div class="placeholder-logo d-flex align-items-center justify-content-center">
+                                <img src="image 28.png" class="img-fluid rounded-top" alt="" />
+                            </div>
+                        </div>
+                        <div class="partner-logo me-2">
+                            <div class="placeholder-logo d-flex align-items-center justify-content-center">
+                                <img src="image 29.png" class="img-fluid rounded-top" alt="" />
+                            </div>
+                        </div>
+                        <div class="partner-logo me-4">
+                            <div class="placeholder-logo d-flex align-items-center justify-content-center">
+                                <img src="image 30.png" class="img-fluid rounded-top" alt="" />
+                            </div>
+                        </div>
+                        <div class="partner-logo">
+                            <div class="placeholder-logo d-flex align-items-center justify-content-center">
+                                <img src="image 31.png" class="img-fluid rounded-top" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5">
+        <div class="container position-relative">
+            <div class="send-icon-container">
+                <img src="send (2) 1.png" alt="" srcset="">
+            </div>
+            <div class="newsletter-container ">
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="newsletter-title mb-4">Subscribe to get information, latest news and other
+                            interesting offers about Jadoo</h2>
+
+                        <div
+                            class="newsletter-form-container d-flex flex-column flex-md-row justify-content-center mt-5">
+                            <div class="input-container me-md-3 mb-3 mb-md-0">
+                                <i class="far fa-envelope input-icon"></i>
+                                <input type="email" class="newsletter-input" placeholder="Your email">
+                            </div>
+                            <button class="newsletter-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+
+</html>
